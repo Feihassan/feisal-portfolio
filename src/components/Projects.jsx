@@ -1,6 +1,7 @@
 import React from "react";
 import project1Img from "../assets/zuu.png";
 import project2Img from "../assets/expo.png";
+import project3Img from "../assets/smartgoal.png";
 
 const projects = [
   {
@@ -18,6 +19,14 @@ const projects = [
       "A creative artwork gallery that allows users to explore stunning art pieces with smooth layout and filtering using vanilla JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://capable-lily-80f095.netlify.app/",
+  },
+  { 
+  title: "Smart-Goal-Planner",
+    image: project3Img,
+    description:
+      "A creative artwork gallery that allows users to explore stunning art pieces with smooth layout and filtering using vanilla JavaScript.",
+    tech: [" React + Vite", "Tailwind CSS", "json-server"],
+    live: "https://benevolent-heliotrope-190e55.netlify.app/",
   },
 ];
 
