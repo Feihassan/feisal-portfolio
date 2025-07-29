@@ -2,7 +2,7 @@ import React from "react";
 import project1Img from "../assets/zuu.png";
 import project2Img from "../assets/expo.png";
 import project3Img from "../assets/smartgoal.png";
-
+import project4Img from "../assets/dream.png";
 const projects = [
   {
     title: "Mama Zulekha Store",
@@ -24,9 +24,17 @@ const projects = [
   title: "Smart-Goal-Planner",
     image: project3Img,
     description:
-      "A creative artwork gallery that allows users to explore stunning art pieces with smooth layout and filtering using vanilla JavaScript.",
-    tech: [" React + Vite", "Tailwind CSS", "json-server"],
+      "Smart Goal Planner is a simple and powerful web app that helps users set, track, and achieve their savings goals. With features like real-time progress bars, deposit tracking, deadlines, and goal categories, it keeps users organized and motivated. Perfect for managing personal finances and staying on top of your financial targets.",
+    tech: [" React", "Vite", "Tailwind CSS"],
     live: "https://benevolent-heliotrope-190e55.netlify.app/",
+  },
+   { 
+  title: "Dream Apartment Finder",
+    image: project4Img,
+    description:
+      "Dream Apartment Finder is a modern React app that lets users browse, search, and book apartments easily. It features a clean UI, search by location, and booking functionality all powered by a mock JSON backend.",
+    tech: [" React", "Vite", "Tailwind CSS"],
+    live: "https://resplendent-choux-4ad62a.netlify.app/",
   },
 ];
 
