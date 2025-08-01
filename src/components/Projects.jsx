@@ -10,7 +10,7 @@ const projects = [
     description:
       "An elegant e-commerce store for cosmetics with cart, checkout, EmailJS integration, and admin dashboard.",
     tech: ["React", "Vite", "Tailwind", "EmailJS"],
-    live: "https://taupe-brigadeiros-58450e.netlify.app/",
+    live: "https://glowing-cat-c26794.netlify.app/",
   },
   {
     title: "ArtExplorer",
@@ -36,6 +36,7 @@ const projects = [
     tech: [" React", "Vite", "Tailwind CSS"],
     live: "https://resplendent-choux-4ad62a.netlify.app/",
   },
+  
 ];
 
 const Projects = () => {
