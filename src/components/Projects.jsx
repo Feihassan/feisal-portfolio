@@ -1,24 +1,26 @@
 import React from "react";
 import project1Img from "../assets/zuu.png";
-import project2Img from "../assets/expo.png";
+import project2Img from "../assets/expo1.png";
 import project3Img from "../assets/smartgoal.png";
 import project4Img from "../assets/dream.png";
 const projects = [
-  {
-    title: "Mama Zulekha Store",
-    image: project1Img,
-    description:
-      "An elegant e-commerce store for cosmetics with cart, checkout, EmailJS integration, and admin dashboard.",
-    tech: ["React", "Vite", "Tailwind", "EmailJS"],
-    live: "https://glowing-cat-c26794.netlify.app/",
-  },
+
   {
     title: "ArtExplorer",
     image: project2Img,
     description:
       "A creative artwork gallery that allows users to explore stunning art pieces with smooth layout and filtering using vanilla JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
-    live: "https://capable-lily-80f095.netlify.app/",
+    live: "https://sparkling-sundae-4244f0.netlify.app/",
+  },
+    {
+    title: "Mama Zulekha Store",
+
+    image: project1Img,
+    description:
+      "An elegant e-commerce store for cosmetics with cart, checkout, EmailJS integration, and admin dashboard.",
+    tech: ["React", "Vite", "Tailwind", "EmailJS"],
+    live: "https://glowing-cat-c26794.netlify.app/",
   },
   { 
   title: "Smart-Goal-Planner",
