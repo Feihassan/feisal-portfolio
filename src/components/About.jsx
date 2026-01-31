@@ -6,10 +6,10 @@ const About = () => {
 
   const skills = [
     { name: "JavaScript", level: 95 },
-    { name: "React", level: 90 },
-    { name: "Tailwind CSS", level: 88 },
-    { name: "Node.js", level: 85 },
-    { name: "MongoDB", level: 80 },
+    { name: "React", level: 95 },
+    { name: "Tailwind CSS", level: 97 },
+    { name: "Node.js", level: 95 },
+    { name: "MongoDB", level: 90 },
     { name: "Git & GitHub", level: 92 },
   ];
 

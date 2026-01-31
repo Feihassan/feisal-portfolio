@@ -4,31 +4,35 @@ import project1Img from "../assets/zuu.png";
 import project2Img from "../assets/expo1.png";
 import project3Img from "../assets/smartgoal.png";
 import project4Img from "../assets/dream.png";
+import project5Img from "../assets/bodax.png";
 
+
+import project6Img from "../assets/globalease.png";
+import project7img from "../assets/Local.png";
 const projects = [
   {
-    title: "ArtExplorer",
-    image: project2Img,
-    description: "A creative artwork gallery with smooth filtering and modern UI design using vanilla JavaScript.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    live: "https://sparkling-sundae-4244f0.netlify.app/",
-    category: "Frontend"
+    title: "Bodax",
+    image: project5Img,
+    description: "Kenya's Fastest same-day delivery courier.",
+    tech: ["React", "Tailwind CSS", "JavaScript", "PostgreSQL"],
+    live: "https://www.bodax.org/",
+    category: "Pogressive Web App"
   },
   {
-    title: "Mama Zulekha Store",
-    image: project1Img,
+    title: "Globaleaseltd",
+    image: project6Img,
     description: "Elegant e-commerce platform with cart functionality, checkout system, and admin dashboard.",
-    tech: ["React", "Vite", "Tailwind", "EmailJS"],
-    live: "https://glowing-cat-c26794.netlify.app/",
-    category: "Full Stack"
+    tech: ["React", "Vite", "Tailwindcss", "Node.js" , "firebase"],
+    live: "https://www.globaleaseltd.co.ke/",
+    category: "web App"
   },
   {
-    title: "Smart Goal Planner",
-    image: project3Img,
-    description: "Financial goal tracking app with progress visualization, deadlines, and category management.",
-    tech: ["React", "Vite", "Tailwind CSS"],
-    live: "https://benevolent-heliotrope-190e55.netlify.app/",
-    category: "Web App"
+    title: "Local Event hub",
+    image: project7img,
+    description: "Event management platform with event creation, browsing, and RSVP features.",
+    tech: ["React", "Vite", "Tailwind CSS" ,"Node.js" , "supabase"],
+    live: "https://local-event-hub.vercel.app/",
+    category: "Progressive web App"
   },
   {
     title: "Dream Apartment Finder",
