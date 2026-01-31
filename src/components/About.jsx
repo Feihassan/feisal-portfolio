@@ -133,7 +133,7 @@ const About = () => {
             <div className="glass-dark rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-primary mb-6">Tech Stack</h3>
               <div className="flex flex-wrap gap-3">
-                {["JavaScript", "React", "Tailwind CSS", "Node.js", "MongoDB", "Vite", "Git", "Figma"].map((tech, index) => (
+                {["JavaScript", "React", "Tailwind CSS", "Node.js", "MongoDB", "Vite", "Git", "Figma","Firebase", "supabase"].map((tech, index) => (
                   <motion.span
                     key={tech}
                     initial={{ scale: 0, opacity: 0 }}
