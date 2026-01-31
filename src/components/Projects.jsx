@@ -14,7 +14,7 @@ const projects = [
     title: "Bodax",
     image: project5Img,
     description: "Kenya's Fastest same-day delivery courier.",
-    tech: ["React", "Tailwind CSS", "JavaScript", "PostgreSQL"],
+    tech: ["React", "Tailwind CSS", "JavaScript", "Node.js", "PostgreSQL"],
     live: "https://www.bodax.org/",
     category: "Pogressive Web App"
   },
